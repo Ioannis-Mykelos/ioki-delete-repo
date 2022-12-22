@@ -1,0 +1,10 @@
+name: create my second file
+
+on:
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - echo "the second file is completed"
